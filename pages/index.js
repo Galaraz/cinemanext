@@ -6,7 +6,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { useSelector } from 'react-redux'
+import { useSelector } from 'react-redux';
 import ContentHeader from '../components/ContentHeaderMain';
 import Skeleton from '../components/Skeleton';
 import { descriptionDefault, apiId, urlImgs, urlSite, moneyFormatter, titleSite, api, reloadTime, urlFavicon } from '../utils';
