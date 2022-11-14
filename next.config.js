@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
+  experimental = {
     runtime: 'experimental-edge',
   },
   reactStrictMode: true,
