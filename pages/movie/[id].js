@@ -4,7 +4,7 @@ import { apiLocal } from "../../lib/tmdb";
 import styles from '../../styles/Home.module.css'
 
 export default function MovieItem({info}) {
-  { console.log(info)}
+  
     return (
     <div className={styles.container}>
       <Head>
@@ -31,7 +31,7 @@ export default function MovieItem({info}) {
 export async function getServerSideProps(context) {
   const result = await fetch(`${apiLocal}/api/movie/${context.params.id}`);
   const json = await result.json();
-  console.log(json);
+ 
   return {
     props: {
       info: json.info

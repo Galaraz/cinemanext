@@ -33,7 +33,7 @@ export default function Busca({list}) {
         <br></br>    
         <button onClick={handlerSearch}>Buscar</button>
 
-        <hr/>
+       
    
         <ul>
             {movieList.map(item=>(
@@ -52,3 +52,5 @@ export default function Busca({list}) {
     </div>
   )
 }
+
+ 
