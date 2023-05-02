@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-   
+    "@cloudflare/next-on-pages": "^0.10.1",
     "next": "12.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -19,6 +19,5 @@
     "@types/react": "18.0.25",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1"
-    
   }
 }
