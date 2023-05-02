@@ -37,7 +37,7 @@ export default function Home({list}) {
 }
 
 export async function getServerSideProps() {
-  const result = await fetch(`${apiLocal}/api/trending`);
+  const result = await fetch("http://localhost:3000/api/trending");
    const json = await result.json();
   
   return {

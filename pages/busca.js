@@ -10,7 +10,7 @@ export default function Busca({list}) {
 
  const handlerSearch = async () => { 
     if (searchText !== '') {
-        const result = await fetch(`http://localhost:3000/api/search?q=${searchText}`);
+        const result = await fetch(`/api/search?q=${searchText}`);
         const json = await result.json();
         setMovieList(json.list);
     }
