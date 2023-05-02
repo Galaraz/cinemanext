@@ -5,6 +5,7 @@ const nextConfig = {
   swcMinify: true,
   experimental: {
     runtime: 'edge',
+    appDir: true,
   }
 }
 
