@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run generate-output-directory && next build && next export",
+    "build": " next build ",
     "start": "next start node",
     "lint": "next lint",
     "generate-output-directory": "mkdir -p .vercel/output/static"
   },
   "dependencies": {
-    "@cloudflare/next-on-pages": "^0.10.1",
+    "@cloudflare/next-on-pages":  "0.0.0-87e183b",
     "next": "12.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
