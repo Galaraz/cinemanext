@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   experimental: {
-    runtime: 'edge',
+    runtime: 'experimental-edge',
     appDir: 'true'
   }
 }
