@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": " next build ",
+    "build": "next build ",
     "start": "next start node",
     "lint": "next lint",
-    "generate-output-directory": "mkdir -p .vercel/output/static"
+    
   },
   "dependencies": {
     "@cloudflare/next-on-pages":  "0.0.0-87e183b",
