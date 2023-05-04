@@ -1,7 +1,4 @@
 import { apiBase, apikey } from "../../lib/tmdb";    
-export const config = {
-   runtime: 'experimental-edge',
- }
 
 export default async (req, res) => {
    const result = await fetch(`${apiBase}/trending/movie/week?api_key=${apikey}&language=pt-BR`);
