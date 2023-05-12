@@ -10,12 +10,12 @@
     
   },
   "dependencies": {
-    "@cloudflare/next-on-pages": "0.0.0-87e183b",
     "next": "12.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^0.0.0-b33639f",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "eslint": "8.25.0",
