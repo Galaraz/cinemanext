@@ -8,6 +8,8 @@ export default function Busca({list}) {
  const [searchText, setSearchText] = useState('');
  const [movieList, setMovieList] = useState([]);
 
+console.log(searchText);
+
  const handlerSearch = async () => { 
     if (searchText !== '') {
         const result = await fetch(`/api/search?q=${searchText}`);
