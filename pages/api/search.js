@@ -1,8 +1,6 @@
 import { apiBase, apikey } from "../../lib/tmdb";  
 
-export const config = {
-   runtime: 'edge',
-   }
+
 export default async (req, res) => {
    if (req.query.q === undefined || req.query.q === null){
       req.query.q = 'brasil'
@@ -12,7 +10,7 @@ export default async (req, res) => {
    const json = await result.json();
    const sucess =res.status(200).json({list: json.results}); 
 
-   return new Response(sucess)
+   return sucess
 
   }
   
